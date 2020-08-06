@@ -1,3 +1,54 @@
 body{
     font-family: 'Google Sans','Roboto',Arial,sans-serif;
+    text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
 }
+
+.img-fluid{
+    height: 38px;
+    width: 40px;
+    display: block;
+    margin: 0 auto 24px; 
+ } 
+
+ /* Remember to put !important in front of your own applied style is the styles on any page is affecting your work... Please don't change amything here */
+ 
+ /* Remeber to add img-fluid as your img class for images i didn't state their styles individually  */
+
+/* This font family applies to all pages so don't change */
+
+/* Font Colors used are
+1. #202124;
+2. #5f6368; or use text-muted as the class
+3. #3c4043;  */
+
+/* Cursor Types
+1. cursor: pointer;
+2. cursor:  */
+
+.hello{
+    height: 40px;
+    width: 126.29px;
+}
+/* use this class for the hello img */
+
+.free{
+    height: 90px;
+    margin: 10px 0 4px;
+    width: 100%;
+}
+/* use class for imgs under what you can do for free */
+
+.google-play{
+    text-align: center;
+    height: 56px;
+}
+/* use for the google play img */
+
+.faq-img{
+    flex: 0 0 auto;
+    height: 32px;
+    margin: 0 16px;
+    width: 32px;
+}
+/* use for FAQ imgs */

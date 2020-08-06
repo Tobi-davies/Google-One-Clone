@@ -1,0 +1,9 @@
+article-img{
+    display: block;
+    height: 128px;
+    width: 100%;
+    margin: 0 auto 8px;
+ } 
+/*Use article-img as the class for img under article section */
+
+/* Remember to put !important in front of your own applied style is the styles on any page is affecting your work... Please don't change amything here */
