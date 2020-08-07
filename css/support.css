@@ -26,7 +26,7 @@ article-img{
     margin: 0 auto;
     border-bottom: 1px solid #80868b;
     text-align: center;
-    /* padding: 5%; */
+    padding: 3%;
 }
 
 .feature{
@@ -34,7 +34,7 @@ article-img{
     flex-direction: row;
     flex-wrap: wrap;
     max-width: 912px;
-    
+
     /* border: 1px solid black; */
     box-sizing: border-box;
     overflow: visible;
@@ -53,6 +53,16 @@ article-img{
     border-radius: 8px;
 
 }
+
+.help{
+    line-height: 1.5;
+    font-weight: 700;
+    margin: 5%;
+    cursor: pointer;
+    color: rgb(41,98,255));
+}
+
+
 .review{
     border-bottom: 1px solid #80868b;
 }
