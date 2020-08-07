@@ -3,7 +3,92 @@ article-img{
     height: 128px;
     width: 100%;
     margin: 0 auto 8px;
- } 
+} 
 /*Use article-img as the class for img under article section */
 
 /* Remember to put !important in front of your own applied style is the styles on any page is affecting your work... Please don't change amything here */
+
+.container-fluid{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5% 7%;
+}
+
+.heading{
+    text-align: center;
+    line-height: 1.5;
+    color: #3c4043;
+    margin: 0 0 40px;
+}
+.popular_article{
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 1px solid #80868b;
+    text-align: center;
+    /* padding: 5%; */
+}
+
+.feature{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 912px;
+    
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    overflow: visible;
+    margin:0 auto 48px;
+}
+
+.article_box{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: auto;
+    padding: 3%;
+    text-align: center;
+    margin: 3%;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.3),0 1px 3px 1px rgba(60,64,67,0.15);
+    border-radius: 8px;
+
+}
+.review{
+    border-bottom: 1px solid #80868b;
+}
+
+.membership{
+    margin-bottom: 48px;
+}
+
+.description{
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    color: #5f6368;
+    letter-spacing: 0.01428rem;
+    margin-bottom: 48px;
+}
+
+.btn{
+    padding: 8px 24px;
+}
+
+.footer{
+    font-size: 14px;
+}
+
+@media screen and (max-width: 512px){
+    .feature{
+        flex-direction: row;
+        overflow: scroll;
+        flex-wrap: nowrap;
+    }
+    .article_box{
+        width: 304px;
+    }
+
+    .footer{
+        display: none;
+    }
+}
