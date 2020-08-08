@@ -17,8 +17,52 @@
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
-    <section id="support">
+    <section id="support" class="container-fluid">
     <!-- All works should be done in divs within this section -->
+    <div class="warning">
+        <p class="warning-p" style="border-radius: 10px;"> <i class="fas fa-exclamation-triangle" style="color: orange;"></i><span style="padding-left: 10px;">Google One support services may be impacted due to the COVID-19 situation. In the meantime, please visit <a href="">g.co/covid19/googleone</a>.</span> </p>
+    </div>
+
+    <div class="heart-div">
+         <img class="heart" src="svg/support-heart.svg" alt="">
+         <h1 class="h1-support">Support for everything Google</h1>
+         <h2 class="h2-support">Get help with Google products - including Google Photos, <br> Gmail, and more</h2>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2">
+        <div class="col mb-4">
+          <div class="card one"  style="border-style: none;">
+            <img src="svg/chat-support.svg" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Chat</h5>
+                <p class="card-text"><a href="" class="text-muted"> <i class="fas fa-lock" style="padding-right: 5px;"></i>2-3 min</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card two" style="border-style: none;">
+            <img src="svg/email-support.svg" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Email</h5>
+                <p class="card-text"><a href="" class="text-muted"> <i class="fas fa-lock" style="padding-right: 5px;"></i>24 hr or less</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <p><a href="" class="text-muted show">Show support hours</a> </p>
+    <p class="convo">Your conversation will be with a Google expert who speaks:</p>
+    <div class="dropdown">
+        <button class="btn dropdown-toggle english" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          English
+        </button>
+    </div>   
+<hr>
+<div class="unlock">
+    <h2>To unlock dedicated support with a Google expert, upgrade to Google <br> One membership</h2>
+    <button type="button" class="btn btn-primary btn-unlock">Upgrade</button>
+</div>
+<hr>
     </section>
 
     <!-- Popular Articles -->
@@ -60,15 +104,17 @@
                 <h5>Share Google One with your family</h5>
             </div>
         </div>
-
         <p class="help text-primary">Go to Help Center</p>
+        <hr>
     </section>
 
     <!-- Review -->
     <section class="container-fluid review">
         <h2 class="heading">Review your support</h2>
         <h3 class="description">Your support history appear here when you upgrade to Google One membership</h3>
+   <hr>
     </section>
+    
 
 
     <!-- membership -->
