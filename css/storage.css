@@ -1,8 +1,108 @@
+#storage{
+    margin: 13%;
+    width: 75%;
+}
+
+
+.first-section {
+    text-align: center;
+}
 .storage-img{
     height: 56px;
     max-width: 100%;
     width: 56px;
-}    
+    padding-bottom: 1%;
+} 
+#storage a {
+    color:white;
+}
+
+
+.first-section h6 {
+    text-align: center;
+    color: #5f6368;
+    margin: 3%;
+}
+
+.second-section {
+    text-align: center;
+    padding: 10%;
+}
+
+.second-section h2{
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 2%;
+}
+
+
+.storage-bar {
+    background: #dbdcdd;
+    border-radius: 4px;
+    display: flex;
+    height: 8px;
+    justify-content: flex-start;
+    overflow-x: hidden;
+}
+
+.blue-tag {
+    flex-basis: 1.2133494019508362%; 
+    background: rgba(66,133,244,1);
+}
+
+.red-tag {
+    flex-basis: 1.505835447460413%; 
+    background: rgba(234,67,53,1);
+}
+
+.storage-details {
+    text-align: left;
+    padding-top: 3%;
+}
+.stotage details span{
+    font-size:16px;
+    font-weight:bold;
+}
+
+.storage-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 5% 0;
+}
+
+.storage-list-item {
+    margin-bottom: 3%;
+}
+
+.circle {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 0;
+    vertical-align: middle;
+}
+
+.blue-dot {
+    background-color: rgb(7, 38, 216);
+}
+
+.red-dot {
+    background-color: red;
+}
+
+.yellow-dot {
+    background-color: yellow;
+}
+
+.space-details {
+    margin-left: 4%;
+}
+
+.space-occupied {
+    position: absolute;
+    right: 5%;
+}
 /* use this class for the storage img that is at the beginning of the page */
 
 .account-storage-img{
@@ -12,7 +112,67 @@
     width: 32px;
 }
 
+.storage-disclaimer {
+    text-align: center;
+}
+
+.storage-disclaimer_info {
+    display: block;
+}
+
+.first {
+    font-size: 24px;
+}
+
+.disclaimer-info {
+    margin: 5%;
+    border: 1px solid rgb(138, 138, 141);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.info {
+    border: 1px solid rgb(186, 186, 192); 
+    padding: 2%;
+}
+
+.drop {
+    position: absolute;
+    right: 22%;
+    vertical-align: middle;
+}
+
+.elephant-section {
+    border: 2px solid rgb(186, 186, 192);
+    padding: 4%;
+    border-radius: 5px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.first-text {
+    font-size: 24px;
+    margin-bottom: 2%;
+}
+
+.second-text {
+    font-size: 16px;
+    display: block;
+    color: #3c4043;
+}
+
+.link-text {
+    position: absolute;
+    bottom: 4%;
+}
+
+
+
+
 /* use this class for images under ways to use your google account blah blah blah */
+
+
 
 .elephant{
     border-radius: 8px 8px 0 0;
@@ -30,4 +190,4 @@
 
 /* use this class for the 1 img */
 
-/* Remember to put !important in front of your own applied style is the styles on any page is affecting your work... Please don't change amything here */
+/* Remember to put !important in front of your own applied style is the styles on any page is affecting your work... Please don't change anything here*/
