@@ -1,0 +1,156 @@
+body{
+    font-family: 'Google Sans','Roboto',Arial,sans-serif;
+    text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+.img-fluid{
+    height: 38px;
+    width: 40px;
+    display: block;
+    margin: 0 auto 24px; 
+ } 
+
+ /* Remember to put !important in front of your own applied style is the styles on any page is affecting your work... Please don't change amything here */
+ 
+ /* Remeber to add img-fluid as your img class for images i didn't state their styles individually  */
+
+/* This font family applies to all pages so don't change */
+
+/* Font Colors used are
+1. #202124;
+2. #5f6368; or use text-muted as the class
+3. #3c4043;  */
+
+/* Cursor Types
+1. cursor: pointer;
+2. cursor:  */
+
+.hello{
+    height: 40px;
+    width: 126.29px;
+}
+/* use this class for the hello img */
+
+.free{
+    height: 90px;
+    margin: 10px 0 4px;
+    width: 100%;
+}
+/* use class for imgs under what you can do for free */
+
+.google-play{
+    text-align: center;
+    height: 56px;
+}
+/* use for the google play img */
+
+.faq-img{
+    flex: 0 0 auto;
+    height: 32px;
+    margin: 0 16px;
+    width: 32px;
+}
+/* use for FAQ imgs */
+
+.google-play{
+    text-align: center;
+    height: 56px;
+}
+
+.home-backup{
+    height: 90px;
+    margin: 10px 0 4px;
+    width: 100px;
+    position: relative;
+    left: 120px;
+}
+
+.home-storage{
+    height: 90px;
+    margin: 10px 0 4px;
+    width: 100px;
+    position: relative;
+    left: 120px;
+}
+
+.home-email{
+    margin: 10px 0 4px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 120px;
+}
+.hello{
+    height: 40px;
+    width: 126.29px;
+    width: 126.29px;
+}
+
+.helloribbon{
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+}
+
+h4{
+    padding: 20px;
+}
+
+.btn{
+    background: #2962ff;
+    background-image: -webkit-linear-gradient(top, #2962ff,#2962ff);
+    background-image: -moz-linear-gradient(top, #2962ff, #2962ff);
+    background-image: -ms-linear-gradient(top, #2962ff, #2962ff);
+    background-image: -o-linear-gradient(top, #2962ff,#2962ff );
+    background-image: linear-gradient(top, #2962ff , #2962ff);
+    -webkit-border-radius: 8;
+    -moz-boder-radius: 8;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    width: 100px;
+}
+
+.btn btn-primary{
+    color: white;
+}
+
+.card-title{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+.card-text{
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
+    padding: 2px;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin: 16px auto 0;
+    width: 350px;
+}
+
+@media screen and (min-width: 600px){
+    .col-lg-6{
+        position: relative;
+        left: 155px;
+    }
+}
+
+@media screen and (min-width: 600px){
+    .col-lg-4{
+        position: relative;
+        right: 35px;
+    }
+}

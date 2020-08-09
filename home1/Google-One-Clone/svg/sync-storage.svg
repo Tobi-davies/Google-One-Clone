@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="logo_x5F_photos_x5F_192px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" viewBox="0 0 192 192" enable-background="new 0 0 192 192" xml:space="preserve">
+  <rect id="bounding_box_1_" fill="none" width="192" height="192"/>
+  <g id="art_layer">
+    <path fill="#FBBC04" d="M52,48c24.3,0,44,19.7,44,44v4H12c-2.21,0-4-1.79-4-4C8,67.7,27.7,48,52,48z"/>
+    <path fill="#EA4335" d="M144,52c0,24.3-19.7,44-44,44h-4V12c0-2.21,1.79-4,4-4C124.3,8,144,27.7,144,52z"/>
+    <path fill="#4285F4" d="M140,144c-24.3,0-44-19.7-44-44v-4h84c2.21,0,4,1.79,4,4C184,124.3,164.3,144,140,144z"/>
+    <path fill="#34A853" d="M48,140c0-24.3,19.7-44,44-44h4v84c0,2.21-1.79,4-4,4C67.7,184,48,164.3,48,140z"/>
+  </g>
+</svg>

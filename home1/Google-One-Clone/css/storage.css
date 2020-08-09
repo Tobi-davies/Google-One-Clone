@@ -1,0 +1,33 @@
+.storage-img{
+    height: 56px;
+    max-width: 100%;
+    width: 56px;
+}    
+/* use this class for the storage img that is at the beginning of the page */
+
+.account-storage-img{
+    flex: 0 0 auto;
+    height: 32px;
+    margin: 0 16px;
+    width: 32px;
+}
+
+/* use this class for images under ways to use your google account blah blah blah */
+
+.elephant{
+    border-radius: 8px 8px 0 0;
+    display: block;
+    height: 195px;
+    width: 100%;
+}
+/* use this class for the elephant img */
+
+.one{
+    height: 65px;
+    margin: 62px 0 32px;
+    width: 65px;
+}
+
+/* use this class for the 1 img */
+
+/* Remember to put !important in front of your own applied style is the styles on any page is affecting your work... Please don't change amything here */
