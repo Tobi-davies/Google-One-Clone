@@ -52,3 +52,209 @@ body{
     width: 32px;
 }
 /* use for FAQ imgs */
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* SIDEBAR */
+nav {
+  width: 200px;
+  height: 90%;
+  padding-top: 30px;
+  font-family: 'Nunito Sans', sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.head {
+  margin-left: 10px;
+  padding-left: 20px;
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+/* TOGGLE BUTTON */
+.head .fas {
+ font-size: 20px;
+ display: none;
+ padding: 8px;
+ cursor: pointer;
+}
+.toggle:hover {
+  background-color: #ddd;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.toggle {
+  display: none;
+}
+.head div {
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Josefin Sans', sans-serif;
+}
+/* GOOGLE LOGO */
+.G {
+  color: #2962ff;
+}
+.O, .E {
+  color: red;
+}
+.diff {
+  color: yellow;
+}
+.L {
+  color: rgb(11, 180, 11);
+}
+.one {
+  font-family: 'Nunito Sans', sans-serif;
+  color: rgb(83, 76, 76);
+}
+
+/* NAVIGATION LINKS */
+.nav-list {
+  padding-left: 25px;
+}
+ul {
+  list-style: none;
+}
+ svg {
+  width: 26px;
+  height: 27px;
+}
+.item-link {
+  display: flex;
+  flex-direction: column;
+  padding: 14px 10px;
+  text-decoration: none;
+}
+.item-link span {
+  color: rgb(146, 146, 146);
+  font-size: 13px;
+}
+.item {
+  width: 80px;
+  text-align: center;
+}
+.item-link:hover {
+  background-color: rgb(226, 225, 225);
+  border-radius: 5px;
+}
+.item-link svg {
+  margin: auto;
+  margin-bottom: 5px;
+}
+/* FOOTER */
+footer {
+  width: 90%;
+  margin: auto;
+  margin-top: 93vh;
+}
+.footer-content {
+  display: flex;
+  align-items: flex-end;
+}
+.footer-title {
+  font-size: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.footer-links {
+  font-family: 'Nunito Sans', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  width: 42%;
+  margin-left: auto;
+  font-size: 12px;
+  color: rgb(146, 146, 146);
+}
+.google-mobile {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .head .fas {
+    display: block;
+   }
+   .nav-list {
+     display: none;
+   }
+   .head {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+  }
+
+  /* MOBILE GOOGLE LOGO */
+  .google-mobile {
+    display: block;
+    padding: 30px 20px 20px 20px;
+    font-size: 27px;
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .toggle {
+    display: block;
+  }
+
+  /* MOBILE SIDEBAR */
+  .show-links {
+    width: 270px;
+    height: 100vh;
+    background-color: white;
+    padding-left: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    box-shadow: 3px 0 10px rgba(0, 0, 0, 0.5);
+    transition: 10 ease-in-out;   
+  }
+  .show-links .item-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 0;
+    text-decoration: none;
+  }
+  .show-links .item {
+    border: 1px solid white;
+    width: 97%;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-right: auto;
+    padding: 10px;
+    padding-left: 20px; 
+  }
+  .show-links .item:hover {
+    background-color: #eee;
+  }
+  .show-links .item-link svg {
+    margin: 0;
+    margin-bottom: 0;
+    margin-right: 8px;
+  }
+  .show-links .item-link span {
+    color: rgb(146, 146, 146);
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .item-link:hover {
+    background-color: unset;
+    border-radius: unset;
+  }
+  footer {
+    display: none;
+  } 
+}
+
